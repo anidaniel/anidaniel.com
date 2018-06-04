@@ -1,0 +1,134 @@
+.center {
+    text-align: center;
+    padding: 30px;
+}
+
+.mat-elevation-z7 {
+    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .2), 0 7px 10px 1px rgba(0, 0, 0, .14), 0 2px 16px 1px rgba(0, 0, 0, .12)
+}
+
+md-grid-tile {
+    background: #12695E;
+    color: #ffffff;
+}
+
+h2 {
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    color: #263238;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    margin-top: 50px;
+}
+
+.psect {
+    position: relative;
+}
+
+iframe {
+    z-index: 1;
+}
+
+md-grid-list {
+    height: 500px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    md-grid-list {
+        height: 500px;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    md-grid-list {
+        height: 600px;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    md-grid-list {
+        height: 1000px;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
